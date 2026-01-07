@@ -45,7 +45,7 @@ while True:
             print('Not enough stock available.')
             continue
         total_cost = selected['price'] * quantity
-        print(f'Totak cost: SAR{total_cost}')
+        print(f'Total cost: SAR{total_cost}')
 
         money = float(input('Insert money: SAR'))
         if money >= total_cost:
